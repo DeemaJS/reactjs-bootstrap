@@ -8,8 +8,10 @@ module.exports = {
 		rules: [
 			{ 
 				test: /\.jsx?$/,
-			 	loader: 'babel-loader'		 	
-			 	 
+			 	loader: 'babel-loader',
+			 	options: {
+			 		
+			 	}			 	 
 			}
 		]
 	}
